@@ -49,8 +49,8 @@ public class DataConnector implements SyncService {
             syncLogger.logSyncStart();
 
             int userCount = repository.syncUsers(dataSource.fetchData("/users"));
-            int postCount = repository.syncPosts(dataSource.fetchData("/posts"));
-            int commentCount = repository.syncComments(dataSource.fetchData("/commens"));
+            int postCount =  repository.syncPosts(dataSource.fetchData("/posts"));
+            int commentCount = repository.syncComments(dataSource.fetchData("/comments"));
 
             int totalRecords = userCount + postCount + commentCount;
             syncLogger.logSyncComplete(totalRecords);

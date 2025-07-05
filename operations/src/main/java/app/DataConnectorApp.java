@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class DataConnectorApp {
      private static final String apiUrl = "https://jsonplaceholder.typicode.com";
-     private static final String dbURL = "jdbc:postgresql://localhost:5432/posts_db";
-     private static final String dbUser = "postgres";
+     private static final String dbURL = "jdbc:postgresql://localhost:5432/practise";
+     private static final String dbUser = "sambhav";
      private static final String dbPassword = "";
      private static final int syncIntervalMinutes = 5;
      private static final DataConnector connector = new DataConnector(apiUrl,dbURL,dbUser,dbPassword,syncIntervalMinutes);
