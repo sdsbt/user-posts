@@ -17,7 +17,7 @@ fivetran-connector/
 ├── pom.xml                    # Maven configuration
 ├── setup.sql                 # Database schema setup
 ├── README.md                 # This file
-└── src/main/java/com/connector/
+└── src/app/java/com/connector/
     └── DataConnector.java     # Main connector class
 ```
 
