@@ -1,4 +1,4 @@
-# Fivetran-Style Data Connector
+# Data Connector
 
 A simplified Java-based data connector that syncs data from JSONPlaceholder API to PostgreSQL database, similar to Fivetran's approach.
 
