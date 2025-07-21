@@ -1,4 +1,4 @@
--- Database setup for Fivetran Connector
+-- Database setup for ETL Connector
 -- Run this script to create the required tables
 
 -- Create database (run separately if needed)
