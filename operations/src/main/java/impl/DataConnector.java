@@ -17,6 +17,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * Main data connector implementation
  */
+/*
+@author Sambhav D Sethia
+ */
 public class DataConnector implements SyncService {
     public static final Logger logger = LoggerFactory.getLogger(DataConnector.class);
 

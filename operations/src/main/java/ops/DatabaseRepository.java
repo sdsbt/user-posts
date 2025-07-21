@@ -8,6 +8,9 @@ import java.sql.SQLException;
 /**
  * Interface for database operations
  */
+/*
+@author Sambhav D Sethia
+ */
 public interface DatabaseRepository {
     Connection getConnection() throws SQLException;
     int syncUsers(JsonNode users) throws Exception;

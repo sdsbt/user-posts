@@ -10,6 +10,9 @@ import org.slf4j.LoggerFactory;
 import java.sql.*;
 import java.time.LocalDateTime;
 
+/*
+@author Sambhav D Sethia
+ */
 public class PostgresSQLRepository implements DatabaseRepository, SyncLogger {
     private static final Logger logger = LoggerFactory.getLogger(PostgresSQLRepository.class);
 

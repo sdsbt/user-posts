@@ -6,17 +6,19 @@ import org.slf4j.LoggerFactory;
 
 import java.sql.SQLException;
 
+/*
+@author Sambhav D Sethia
+ */
 public class DataConnectorApp {
      private static final String apiUrl = "https://jsonplaceholder.typicode.com";
      private static final String dbURL = "jdbc:postgresql://localhost:5432/practise";
-     private static final String dbUser = "sambhav";
-     private static final String dbPassword = "";
+     private static final String dbUser = "postgres";
+     private static final String dbPassword = "password";
      private static final int syncIntervalMinutes = 5;
      private static final DataConnector connector = new DataConnector(apiUrl,dbURL,dbUser,dbPassword,syncIntervalMinutes);
      private static final Logger logger = LoggerFactory.getLogger(DataConnector.class);
     public static void main(String[] args) throws InterruptedException {
         try {
-            System.out.println("=== SIMPLIFIED FIVETRAN CONNECTOR ===");
             System.out.println("Source: https://jsonplaceholder.typicode.com");
             System.out.println("Destination: PostgreSQL");
             System.out.println("Sync Interval: 5 minutes\n");
