@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>com.connector</groupId>
-    <artifactId>fivetran-connector</artifactId>
+    <artifactId>userposts-connector</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     
